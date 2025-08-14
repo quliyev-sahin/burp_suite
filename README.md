@@ -24,8 +24,9 @@ Real-time request interception və manipulyasiya üçün GUI tool.
 - Python 3.11+
 - PyQt5
 
-Usage
+## Usage
 python burpsuite4.py
+
 Configure your browser to use 127.0.0.1:8888 as HTTP proxy
 
 All HTTP requests will appear in the GUI
