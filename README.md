@@ -1,36 +1,68 @@
 # burp_suite
 HTTP Proxy GUI for request interception
+
 # Burp-like HTTP Proxy GUI
 
-**Python 3 + PyQt5 HTTP Proxy**  
-Real-time request interception və manipulyasiya üçün GUI tool.
+Python 3 + PyQt5 HTTP Proxy GUI  
+Real-time request interception, forwarding, dropping, replay, filtering və highlighting funksiyaları ilə.
 
 ---
 
-## Features
+## 📌 Features
 
-- Capture HTTP requests (GET, POST)
-- Forward / Drop / Replay requests
-- Filter by Method, Status, Keyword
-- Highlight sensitive keywords (password, token, session)
-- Export captured requests to JSON
-- Clear All requests
-- PyQt5 GUI
+- HTTP request capture (GET, POST)  
+- Forward / Drop / Replay requests  
+- Filter by method, status, or keyword  
+- Highlight sensitive keywords (password, token, session)  
+- Export captured requests to JSON  
+- Clear all captured requests  
+- PyQt5 GUI  
 
 ---
 
-## Requirements
+## ⚙️ Installation
 
-- Python 3.11+
-- PyQt5
+1. Python 3.11+ yüklü olmalıdır  
+2. PyQt5 quraşdır:
 
-## Usage
+```bash
+pip install PyQt5
+Layihəni GitHub-dan klonla:
+https://github.com/quliyev-sahin/burp_suite.git
+
+🚀 Usage
+
 python burpsuite4.py
 
-Configure your browser to use 127.0.0.1:8888 as HTTP proxy
+Brauzerini 127.0.0.1:8888 HTTP proxy olaraq konfiqurasiya et
 
-All HTTP requests will appear in the GUI
+GUI-də bütün HTTP requestlər görünəcək
 
-Select a request to forward, drop, or replay
+Requesti seçərək Forward / Drop / Replay edə bilərsən
 
-Use filter and search for easy navigation    
+Filter və search ilə requestləri axtara bilərsən
+
+🖼 Screenshots
+(Buraya toolun ekran görüntülərini əlavə et)
+
+📝 Export Requests
+Captured requestləri JSON formatında export etmək mümkündür.
+
+Exported JSON struktur nümunəsi:
+
+json
+Kopyala
+Düzenle
+[
+  {
+    "id": 0,
+    "method": "GET",
+    "path": "/test.php",
+    "status": "Completed",
+    "headers": {
+      "Host": "localhost",
+      "User-Agent": "Mozilla/5.0"
+    },
+    "body": ""
+  }
+]    
