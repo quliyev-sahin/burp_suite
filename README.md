@@ -34,7 +34,7 @@ python burpsuite4.py
 
 Configure your browser as an HTTP proxy for 127.0.0.1:8888
 
-![Image Alt](https://github.com/quliyev-sahin/burp_suite/blob/main/images/1.png)
+![Image Alt](https://github.com/quliyev-sahin/burp_suite/blob/main/images/1.png?raw=true)
 
 GUI-də bütün HTTP requestlər görünəcək
 
