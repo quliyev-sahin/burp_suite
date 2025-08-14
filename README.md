@@ -1,10 +1,8 @@
 # burp_suite
 HTTP Proxy GUI for request interception
 
-# Burp-like HTTP Proxy GUI
-
 Python 3 + PyQt5 HTTP Proxy GUI  
-Real-time request interception, forwarding, dropping, replay, filtering və highlighting funksiyaları ilə.
+With real-time request interception, forwarding, dropping, replay, filtering and highlighting functions.
 
 ---
 
@@ -22,19 +20,20 @@ Real-time request interception, forwarding, dropping, replay, filtering və high
 
 ## ⚙️ Installation
 
-1. Python 3.11+ yüklü olmalıdır  
-2. PyQt5 quraşdır:
+1. Python 3.11+ must be installed 
+2. Install PyQt5:
 
 ```bash
 pip install PyQt5
-Layihəni GitHub-dan klonla:
+Clone the project from GitHub:
 https://github.com/quliyev-sahin/burp_suite.git
 
 🚀 Usage
 
 python burpsuite4.py
 
-Brauzerini 127.0.0.1:8888 HTTP proxy olaraq konfiqurasiya et
+Configure your browser as an HTTP proxy for 127.0.0.1:8888
+
 
 GUI-də bütün HTTP requestlər görünəcək
 
