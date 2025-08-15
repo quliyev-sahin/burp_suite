@@ -14,6 +14,7 @@ Configure your browser as an HTTP proxy for 127.0.0.1:8888
 
 python burpsuite4.py
 
+![Main Screenshot](images/7.png)
 
 All HTTP requests will be visible in the GUI.You can Forward / Drop / Replay by selecting the request.You can search for requests using filters and search.
 
@@ -39,6 +40,34 @@ In the end, our request was forwarded and xss worked
 
 ![Main Screenshot](images/6.png)
 
+
+📝 Export Requests
+
+![Main Screenshot](images/8.png)
+
+Exported JSON structure example:
+It is possible to export captured requests in JSON format.
+
+
+  {
+   "id": 0,
+   
+   "method": "GET",
+   
+   "path": "/test.php",
+   
+    "status": "Completed",
+  
+    "headers": {
+  
+      "Host": "localhost",
+  
+      "User-Agent": "Mozilla/5.0"
+    },
+   
+    "body": ""
+  }  
+
 ## 📌 Features
 
 - HTTP request capture (GET, POST)  
@@ -59,27 +88,11 @@ In the end, our request was forwarded and xss worked
 ```bash
 pip install PyQt5
 Clone the project from GitHub:
-https://github.com/quliyev-sahin/burp_suite.git 
+git clone https://github.com/quliyev-sahin/burp_suite.git 
 
 
-📝 Export Requests
 
-Exported JSON structure example:
-It is possible to export captured requests in JSON format.
-json
-[
-  {
-    "id": 0,
-    "method": "GET",
-    "path": "/test.php",
-    "status": "Completed",
-    "headers": {
-      "Host": "localhost",
-      "User-Agent": "Mozilla/5.0"
-    },
-    "body": ""
-  }
-]    
+
 
 
 
