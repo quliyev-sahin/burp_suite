@@ -7,13 +7,13 @@ With real-time request interception, forwarding, dropping, replay, filtering and
 ---
 🚀 Usage
 
-python burpsuite4.py
-
 Configure your browser as an HTTP proxy for 127.0.0.1:8888
 ![Main Screenshot](images/1.png)
 
-GUI-də bütün HTTP requestlər görünəcək
+python burpsuite4.py
 
+All HTTP requests will be visible in the GUI
+![Main Screenshot](images/2.png)
 Requesti seçərək Forward / Drop / Replay edə bilərsən
 
 Filter və search ilə requestləri axtara bilərsən
