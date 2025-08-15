@@ -8,23 +8,35 @@ With real-time request interception, forwarding, dropping, replay, filtering and
 🚀 Usage
 
 Configure your browser as an HTTP proxy for 127.0.0.1:8888
+
 ![Main Screenshot](images/1.png)
+
 
 python burpsuite4.py
 
+
 All HTTP requests will be visible in the GUI.You can Forward / Drop / Replay by selecting the request.You can search for requests using filters and search.
+
 ![Main Screenshot](images/2.png)
 
+
 We can change what we write in the search section
+
 ![Main Screenshot](images/3.png)
 
+
 When we look at the query, we see that we are looking for the word hello.
+
 ![Main Screenshot](images/4.png)
 
+
 We turn it into a query that we can use "xss".
+
 ![Main Screenshot](images/5.png)
 
+
 In the end, our request was forwarded and xss worked
+
 ![Main Screenshot](images/6.png)
 
 ## 📌 Features
